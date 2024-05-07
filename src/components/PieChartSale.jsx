@@ -8,7 +8,7 @@ import 'chart.js';
 export default function PieChartSales() {
 
   const sales = useSelector((state) => state?.sales);
-  console.log(sales, "sales")
+  // console.log(sales, "sales")
   const salesBreakDown = sales?.reduce(
     (acc, curr) => ({
       ...acc,
@@ -25,7 +25,7 @@ export default function PieChartSales() {
         label: "Total Sale price",
         data: Object.values(salesBreakDown),
         backgroundColor: [
-          "#FF0800"
+          "#555", "#FF0800","#00BFFF", "#03C03C", "#eec0c8", "#FFEF00"
         ],
         hoverOffset: 4,
       }
