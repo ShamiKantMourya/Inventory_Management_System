@@ -65,6 +65,10 @@ form {
   flex-wrap: wrap;
   justify-content: center;
 }
+label {
+
+  color: #fff;
+}
 
 svg {
   padding: 5px;
@@ -75,7 +79,9 @@ svg:hover {
   background-color: #aaa;
   border-radius: 50%;
 }
-
+.add-invent-text{
+  color: #fff;
+}
 ol,
 ul {
   width: max-content;
