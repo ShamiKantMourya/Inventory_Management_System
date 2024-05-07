@@ -153,3 +153,18 @@ button {
   width: 100vh;
   margin: auto;
 }
+.dash{
+  text-align: center;
+  color: whitesmoke;
+  margin: 10px 0px;
+}
+.radio{
+  margin: 10px;
+}
+.heading{
+  color: beige;
+  padding: 10px 0px;
+}
+.text{
+  color: beige;
+}

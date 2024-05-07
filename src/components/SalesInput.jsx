@@ -38,7 +38,7 @@ export function SalesForm() {
   }, []);
   return (
     <div>
-      <b>Add Sales Data</b>
+      <b className="text">Add Sales Data</b>
       <form onSubmit={onSubmitHandler}>
         <label htmlFor="">
           Name:

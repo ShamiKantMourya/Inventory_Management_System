@@ -17,7 +17,7 @@ export default function Sales() {
 
   return (
     <>
-      <h1>
+      <h1 className="heading">
         Sales
         <MonetizationOnIcon fontSize="large" />
       </h1>

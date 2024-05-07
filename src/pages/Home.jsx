@@ -20,13 +20,13 @@ export default function Home() {
   };
   return (
     <div>
-      <h1>DashBoard</h1>
+      <h1 className = "dash">DashBoard</h1>
       {!loading && (
-        <div>Total Inventory cost = ₹ {calculateTotal(inventoryItems)}</div>
+        <div className="dash">Total Inventory cost = ₹ {calculateTotal(inventoryItems)}</div>
       )}
-      <div>Total Revenue = ₹ {calculateTotal(sales)}</div>
+      <div className="dash">Total Revenue = ₹ {calculateTotal(sales)}</div>
       <hr/>
-      <label htmlFor="invent">
+      <label htmlFor="invent" className="radio">
         <input
         id="invent"
           type="radio"
@@ -38,7 +38,7 @@ export default function Home() {
         />
         Inventory Statistics
       </label>
-      <label htmlFor="sales">
+      <label htmlFor="sales" className="radio">
         <input
         id="sales"
           type="radio"

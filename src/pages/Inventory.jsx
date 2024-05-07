@@ -22,7 +22,7 @@ export default function Inventory() {
   useEffect(() => {}, [inventToUpdate]);
   return (
     <div>
-      <h1>
+      <h1 className="heading">
         Inventory Management <InventoryIcon fontSize="large" />
       </h1>
       {inventToUpdate && <InventoryForm toUpdate={inventToUpdate} />}
