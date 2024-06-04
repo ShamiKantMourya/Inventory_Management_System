@@ -1,6 +1,7 @@
 import {API_URL} from "../utils/constants";
 
 const addInventoryService = async (inputData) => {
+  // console.log(inputData, "inputData")
     const requestOptions = {
       method: "POST",
       body: JSON.stringify(inputData),

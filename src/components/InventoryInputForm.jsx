@@ -62,9 +62,6 @@ export function InventoryForm({ toUpdate }) {
           <input
             type="text"
             name="category"
-            id=""
-            min={1}
-            max={100000}
             onChange={onChangeHandler}
             value={formData.category}
             required

@@ -12,7 +12,7 @@ export default function Inventory() {
   const dispatch = useDispatch();
   const inventoryItems = useSelector((state) => state?.inventoryItems);
   const loading = useSelector((state) => state?.loading);
-
+// console.log(inventoryItems,"inventory items")
   useEffect(() => {
     dispatch(getInventoryData());
   }, []);
